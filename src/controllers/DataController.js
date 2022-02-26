@@ -15,10 +15,6 @@ export default class DataController
                 "link" : "",
                 "icon" : "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=prathima.gowda64@gmail.com"
             },
-            // {
-            //     "link" : "",
-            //     "icon" : "twitter.com"
-            // },
             {
                 "link" : "",
                 "icon" : "https://www.instagram.com/prathima__gowda/"
@@ -38,7 +34,7 @@ export default class DataController
             "build":"I build things for the web.",
             "pragraph":"I'm a software engineer who specializes in building "+
             "web Development experiences.\nI have 2+ Years of Experiences as a Reactjs Developer "+
-            "Currently, I'm an engineer at "+
+            "Currently, I'm an software engineer at "+
             "TechMust Software Pvt Ltd.",
         }
     }
@@ -47,7 +43,7 @@ export default class DataController
     getAboutData()
     {
         return"Hello! My name is Prathima and "+
-            "I enjoy creating things that live on the internet."+
+            "I enjoy creating things that live on the internet. "+
             "My interest in web development/Front End development started back in 2019 "+
             "when I decided to try editing custom Tumblr themes — "+
             "turns out hacking together a custom reblog button taught me a lot about HTML & CSS!"
@@ -77,7 +73,7 @@ export default class DataController
                 
                 "workDescription":"Working as Software Developer in TechMust Software Pvt. Ltd. " +
                 "I am working as a front-end web developer. Basically Client-Side programming " +
-                "Design and Developed the Responsive UI/UX, Web Page, DataGrid Useing Html, CSS,"+
+                "Design and Developed the Responsive UI/UX, Web Page, DataGrid Useing Html, CSS, "+
                 "Reactjs and JavaScript." 
            },
            {
@@ -120,7 +116,9 @@ export default class DataController
                 "Role" : "javascript Developer",
                 "Technologies":"",
                 "projectDescription" : "Student Scholarship Management developed for Managing student’s" +
-                "scholarship details,facilitators details, branch and academic details.",
+                "scholarship details,facilitators details, branch and academic details. \n"+
+                "   \n"+
+                " ",
             }
         ]
     }

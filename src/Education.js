@@ -14,7 +14,7 @@ const Education = (props)=>
         </div>
     })
     return   <div id="Education">
-                <h3>Education</h3>
+                <h3 style={{marginRight:"30%"}}>Education</h3>
                  {education}
             </div>
 }

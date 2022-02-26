@@ -9,9 +9,12 @@ const Exprience = (props)=>
    var project = arrProjects.map((oProjects)=>
    {
        return <div className="projectMainDiv">
-                       <h5 className="projectName">{oProjects.projectName}</h5>
-                       <h5 className="role"><label>Role :  </label>{oProjects.Role}</h5>
-                       <p className="projectDescription">{oProjects.projectDescription}</p>
+                  <h5 className="projectName">{oProjects.projectName}</h5>
+                  <h5 className="role"><label>Role :  </label>{oProjects.Role}</h5>
+                  <p className="projectDescription">{oProjects.projectDescription}</p>
+                  <div style={{width:"100%", height:"3vh"}}>
+                
+                  </div>
              </div>
            
    })
