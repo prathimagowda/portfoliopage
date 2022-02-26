@@ -162,6 +162,11 @@ section nav{
     display: none;
   }
 
+  nav ul {
+    height: 100vh;
+    margin-top: 20%;
+  }
+  
 }
 
 #social_icon{
@@ -174,7 +179,7 @@ section nav{
   z-index: 5;
   position: relative;
   color: aqua;
-  font-size: x-large;
+  font-size: xx-large;
   display: none;
   margin-right: 5px;
   cursor: pointer;

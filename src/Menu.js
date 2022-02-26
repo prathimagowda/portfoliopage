@@ -51,13 +51,6 @@ const Menu = () =>
             </li>
             {/* <button onClick={()=>getResume()}>Resume</button> */}
         </ul> 
-          {/* <ul>
-              <li>
-              <a href="#exprience1">exprience</a>
-                  </li>
-        
-          
-          </ul> */}
     </nav>
     <span className="hamburger_icon" onClick={()=>buildNavElement()}><GiHamburgerMenu/></span>
 </header>
@@ -68,7 +61,7 @@ function buildNavElement()
     if(test.className === "topnav")
     {
         test.className = "responsive_nav";
-        document.getElementById("responsiveNav").style.width = "150px";
+        document.getElementById("responsiveNav").style.width = "180px";
     } 
     else if(test.className === "responsive_nav")
     {
