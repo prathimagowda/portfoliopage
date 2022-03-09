@@ -33,8 +33,8 @@ export default class DataController
             "name":"Prathima M k",
             "build":"I build things for the web.",
             "pragraph":"I'm a software engineer who specializes in building "+
-            "web Development experiences.\nI have 2+ Years of Experiences as a Reactjs Developer "+
-            "Currently, I'm an software engineer at "+
+            "web Development experience.\nI have 3 Years of Experience as a Reactjs Developer "+
+            "Currently, I'm a software engineer at "+
             "TechMust Software Pvt Ltd.",
         }
     }
@@ -59,6 +59,7 @@ export default class DataController
             {"strTechnologiesName" : "javascript"}, 
             {"strTechnologiesName" : "React js"},
             {"strTechnologiesName" : "Json"},
+            {"strTechnologiesName" : "JQuery"},
             {"strTechnologiesName" : "AngularJS"},
             {"strTechnologiesName" : "Flutter"},
             {"strTechnologiesName" : "Dart"},
@@ -73,52 +74,51 @@ export default class DataController
                 
                 "workDescription":"Working as Software Developer in TechMust Software Pvt. Ltd. " +
                 "I am working as a front-end web developer. Basically Client-Side programming " +
-                "Design and Developed the Responsive UI/UX, Web Page, DataGrid Useing Html, CSS, "+
+                "Design and Developed the Responsive UI/UX, Web Page, DataGrid Using Html, CSS, "+
                 "Reactjs and JavaScript." 
            },
-           {
-                "companyName": "Source One Management Services Pvt. Ltd. -  October 2018 to April 2019", 
+        //    {
+        //         "companyName": "Source One Management Services Pvt. Ltd. -  October 2018 to April 2019", 
                 
-                "workDescription":"I was Working as a IT Recruiter in Source One Management Services Pvt. Ltd. "+
-                "IT recruiters are the communication link between the hiring company and the job applicant. "+
-                "Recruiters are responsible for staying in touch with job applicants and assisting providing"+
-                "them with guidance in their job search."
-            }
+        //         "workDescription":"I was Working as a IT Recruiter in Source One Management Services Pvt. Ltd. "+
+        //         "IT recruiters are the communication link between the hiring company and the job applicant. "+
+        //         "Recruiters are responsible for staying in touch with job applicants and assisting providing"+
+        //         "them with guidance in their job search."
+        //     }
        ]   
     }
 
     getWorkingProject()
     {
         return [
+
             {
-                "projectName" : "Myngo - April 2021 to Present.",
+                "projectName" : "Myngo",
                 "Role" : "Reactjs Developer and Flutter Developer",
                 "Technologies":"",
                 "projectDescription" : "MyNGO is a crowd funding aggregator platform which assists NGO’s"+
                 "and Social Service Organizations to raise funds for their social cause."
             },
             {
-                "projectName" : "Ferrero - May 2020  to April 2021",
+                "projectName" : "Ferrero",
                 "Role" : "Reactjs Developer",
                 "Technologies":"",
                 "projectDescription" : "Ferrero is an online document repository management system."+
                 "It is used Advertise and Banner creation using Illustrator Templates."
             },
+            // {
+            //     "projectName" : "Myngo BackOffice - October 2019  to  May 2020",
+            //     "Role" : "Reactjs Developer",
+            //     "Technologies":"",
+            //     "projectDescription" : "MyNGO is a crowd funding aggregator platform which assists NGO’s"+
+            //     "and Social Service Organizations to raise funds for their social cause.",
+            // },
             {
-                "projectName" : "Myngo BackOffice - October 2019  to  May 2020",
-                "Role" : "Reactjs Developer",
-                "Technologies":"",
-                "projectDescription" : "MyNGO is a crowd funding aggregator platform which assists NGO’s"+
-                "and Social Service Organizations to raise funds for their social cause.",
-            },
-            {
-                "projectName" : "Zenith - May 2019  to  October 2019",
+                "projectName" : "Zenith",
                 "Role" : "javascript Developer",
                 "Technologies":"",
                 "projectDescription" : "Student Scholarship Management developed for Managing student’s" +
-                "scholarship details,facilitators details, branch and academic details. \n"+
-                "   \n"+
-                " ",
+                "scholarship details, facilitators details, branch and academic details."
             }
         ]
     }
